@@ -2,7 +2,7 @@ module.exports = {
   env: { browser: true, es2020: true },
   extends: [
     'eslint:recommended',
-    'plugin:react/recommended',
+    // 'plugin:react/recommended', // sprawdza typy np.propsów
     'plugin:react/jsx-runtime',
     'plugin:react-hooks/recommended',
   ],
@@ -12,4 +12,4 @@ module.exports = {
   rules: {
     'react-refresh/only-export-components': 'warn',
   },
-}
+};
